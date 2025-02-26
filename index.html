@@ -3,9 +3,217 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>24-Tib-colmar</title>
+    <title>Colmar academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1>24-Tib-colmar</h1>
+  <body class="font-sans">
+    <header class="flex justify-between items-center p-6 h-16">
+      <div class="flex text-[32px] items-center">
+        <div>
+          <img class="h-11" src="/images/ic-logo.svg" alt="ic-logo" />
+        </div>
+        <span class="font-semibold">COLMAR</span>ACADEMY
+      </div>
+      <nav>
+        <ul class="flex gap-4">
+          <li>On campus</li>
+          <li>Online</li>
+          <li>or companies</li>
+          <li>Sign in</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="bg-gray-300 px-6 py-8 grid grid-cols-1 lg:grid-cols-2">
+        <div><img src="images/banner.jpg" alt="" /></div>
+        <div class="ml-6 flex flex-col justify-center">
+          <h2 class="text-3xl font-bold mb-6">Learn something new everyday</h2>
+          <p class="mb-6">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <button class="bg-gray-700 text-white px-16 py-2">Start here</button>
+        </div>
+      </section>
+      <section class="grid-cols-1 lg:grid flex pl-6 py-8">
+        <div class="flex flex-col md:flex-row">
+          <article class="w-full md:w-1/2 hidden md:block">
+            <img
+              class="mb-8"
+              src="images/information-main.jpg"
+              alt="information-main"
+            />
+            <h2 class="text-2xl font-bold mb-6">
+              It doesn't hurt to keep practicing
+            </h2>
+            <p class="mb-6">
+              "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+              dolor consequat, tristique ligula."
+            </p>
+            <p class="">Emanuel, Sr Strategist at Hiring.com</p>
+          </article>
+          <aside class="ml-6 mt-0 size[50%] w-full md:w-1/2">
+            <div class="flex px-4">
+              <img
+                class=""
+                src="images/information-orientation.jpg"
+                alt="information-orientation"
+              />
+              <div class="flex flex-col justify-center w-65% ml-4">
+                <h2 class="font-bold text-xl mb-2">Orientation date</h2>
+                <p class="mb-2">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <a class="text-blue-400" href="">Read more</a>
+              </div>
+            </div>
+
+            <div class="flex p-4">
+              <img
+                class="w-35% h-auto"
+                src="images/information-campus.jpg"
+                alt="information-campus"
+              />
+              <div class="flex flex-col justify-center w-65% ml-4">
+                <h2 class="font-bold text-xl mb-2">Our campus</h2>
+                <p class="mb-2">Find which campus is close by you</p>
+                <a class="text-blue-400" href="">Read more</a>
+              </div>
+            </div>
+
+            <div class="flex p-4">
+              <img
+                class="w-35% h-auto"
+                src="images/information-guest-lecture.jpg"
+                alt=""
+              />
+              <div class="flex flex-col justify-center w-65% ml-4">
+                <h2 class="font-bold text-xl mb-2">Our guest lecture</h2>
+                <p class="mb-2">
+                  Join a keynote with Oliver Sack about music in medical
+                  treatment
+                </p>
+                <a class="text-blue-400" href="">Read more</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+      <section class="bg-gray-300 px-[72px] py-8">
+        <h2 class="text-3xl font-bold text-center mb-8">Start learning</h2>
+        <article class="grid grid-cols-1 lg:grid-cols-3 space-x-4 space-y-3">
+          <div class="bg-gray-100 ml-4">
+            <img
+              class="mb-4 h-auto"
+              src="images/course-software.jpg"
+              alt="course-software"
+            />
+            <h2 class="mb-2 ml-4 font-bold text-xl">Software engineering</h2>
+            <p class="ml-4">COURSES</p>
+            <p class="ml-4">Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+          <div class="bg-gray-100 pb-6">
+            <img
+              class="mb-4"
+              src="images/course-computer-art.jpg"
+              alt="course-computer-art"
+            />
+            <h2 class="mb-2 ml-4 font-bold text-xl">Computer art</h2>
+            <p class="ml-4">COURSES</p>
+            <p class="ml-4">
+              Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+              Computer Animation
+            </p>
+          </div>
+          <div class="bg-gray-100">
+            <img
+              class="mb-4"
+              src="images/course-design.jpg"
+              alt="course-design"
+            />
+            <h2 class="mb-2 ml-4 font-bold text-xl">Design</h2>
+            <p class="ml-4">COURSES</p>
+            <p class="ml-4">
+              User Experience Design, User Research, Visual Design
+            </p>
+          </div>
+          <div class="bg-gray-100 pb-6">
+            <img class="mb-4" src="images/course-data.jpg" alt="course-data" />
+            <h2 class="mb-2 ml-4 font-bold text-xl">Data</h2>
+            <p class="ml-4">COURSES</p>
+            <p class="ml-4">Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+          <div class="bg-gray-100">
+            <img
+              class="mb-4"
+              src="images/course-business.jpg"
+              alt="course-business"
+            />
+            <h2 class="mb-2 ml-4 font-bold text-xl">Business</h2>
+            <p class="ml-4">COURSES</p>
+            <p class="ml-4">
+              Product Development, Business Development, Startups
+            </p>
+          </div>
+          <div class="bg-gray-100">
+            <img
+              class="mb-4"
+              src="images/course-marketing.jpg"
+              alt="course-marketing"
+            />
+            <h2 class="mb-2 ml-4 font-bold text-xl">Marketing</h2>
+            <p class="ml-4">COURSES</p>
+            <p class="ml-4">Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </article>
+      </section>
+      <section class="py-8 pl-6">
+        <h2 class="text-3xl font-bold text-center mb-8">Thesis exhibit</h2>
+        <div class="flex flex-col md:flex-row">
+          <article class="">
+            <video class="mb-6" src="videos/thesis.mp4" controls muted></video>
+            <h2 class="text-xl font-bold mb-2 hidden md:block">
+              Reimagine urban
+            </h2>
+            <p class="hidden md:block">
+              "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+              dolor consequat, tristique ligula."
+            </p>
+          </article>
+
+          <aside class="ml-6 w-full md:w-1/2 hidden md:block">
+            <div class="flex bg-gray-300 p-4">
+              <div>
+                <img src="images/thesis-fisma.jpg" alt="thesis-fisma" />
+              </div>
+              <div class="flex flex-col justify-center ml-4">
+                <h2 class="text-xl font-semibold mb-4">
+                  Fisma: Design and Prototype
+                </h2>
+                <p>Designer showcase of new 16px prototype product</p>
+              </div>
+            </div>
+            <div class="flex bg-gray-100 p-4">
+              <div>
+                <img
+                  class="w-44"
+                  src="images/thesis-now-and-then.jpg"
+                  alt="thesis-now-and-then"
+                />
+              </div>
+              <div class="ml-4 flex flex-col justify-center">
+                <h2 class="text-xl font-bold mb-2">Now and then</h2>
+                <p>Research study about New York</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="flex justify-between mx-6 mb-9">
+      <p>&copy; 2016 Colmar Academy. All rights reserved</p>
+      <p class="hidden md:block">Term Privacy</p>
+    </footer>
   </body>
 </html>
